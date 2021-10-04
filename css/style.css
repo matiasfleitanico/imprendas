@@ -462,9 +462,34 @@ li.list_desc h4 a:hover{
 .check_button a:hover{
 	background:#555;
 }
+
+/*img tittle*/
+.imgti {
+	margin: 2%;
+}
+
+/*Team button*/
+
+.teambutton {
+	text-align: center;
+	color: #000;
+	font-size: 0.95em;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+}
+.teambutton:hover {
+	color: #000;
+}
+
 /*--main--*/
 .content-top{
 	padding:10% 0;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas: "tittle" "content" "button";
+	align-items: center;
+	justify-items: center;
 }
 .content-top h2{
 	color: #000;
@@ -480,7 +505,7 @@ li.list_desc h4 a:hover{
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 600;
-	margin-bottom:1%;
+	margin: 0 5%;
 }
 .content-top h3{
 	color:#000;
@@ -488,7 +513,7 @@ li.list_desc h4 a:hover{
 	text-transform:uppercase;
 	font-weight:700;
 	text-align:center;
-	margin:2% 0 0 0;
+	margin: 1% 2% 2% 0;
 }
 #flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
 	display: none;
