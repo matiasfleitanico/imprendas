@@ -567,7 +567,7 @@ li.list_desc h4 a:hover{
 	right:205px;
 	background: url(../images/img-sprite.png) no-repeat -254px 1px;
 }
-.content-bottom{
+/*.content-bottom{
 	width:100%;
 	background: url(../images/bg_image.jpg)no-repeat center top;
 	-webkit-background-size: cover;
@@ -578,7 +578,7 @@ li.list_desc h4 a:hover{
 	background-size: 100% 100%;
 	height:100%;
 	padding:15% 0;
-}
+} */
 .content_bottom-text h3{
 	color: #FFF;
 	font-size: 3em;
@@ -793,6 +793,105 @@ p.m_5{
 	color:#222;
 	font-size:0.85em;
 }
+
+/*parallax 4real*/
+
+.contenedor {
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+	margin: 20px 0;
+
+}
+
+.parallax {
+	position: absolute;
+	width: 100%;
+	background-image: url(../images/bg_image.jpg);
+	background-size: cover;
+	height: 100vh;
+	margin-top: 200px;
+	z-index: 10;
+}
+
+.titulo {
+	color: #000;
+	font-size: 3em; 
+	text-align: center;
+	margin-top: 100px;
+	z-index: 30;
+}
+
+
+/*--rellax-img--
+
+section#slider {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+div#content-images-slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+div.image-slider {
+	width:100%;
+	background: url(../images/bg_image.jpg)no-repeat center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-size: 100% 100%;
+	height:100%;
+	padding:15% 0; 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+
+}
+
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	}
+	
+	p{color:#fff;}
+	
+	.container-fluid{
+	width:100%;
+	}
+	
+	
+	.container{
+	max-width:1080px;
+	width:100%;
+	margin:auto;
+	padding:32px;
+	}
+	
+	.center{text-align:center;}
+	.black{background-color:#252525;}
+	
+	.parallax{
+	height:500px;
+	background-image:url('../images/bg_image.jpg');
+	background-size:cover;
+	background-attachment: fixed;
+	}*/
+
 /*--footer--*/
 .footer{
 	background:#000;
