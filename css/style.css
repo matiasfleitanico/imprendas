@@ -16,55 +16,88 @@ body a{
 }
 .header{
 	background:#000;
-	padding: 1.5% 0;
-	height: 60px;
+	padding: 1.5% 0;
+	height: 80px;
 	display: grid;
-	grid-template-columns: 1fr 100px 150px 100px 100px 100px 60px;
-	grid-template-rows: 1fr;
-	grid-template-areas: "logo home quienes servicios galeria contacto";
-	justify-content: center;
-	justify-items: center;
-	align-content: center;
-	color:white;
-}
-
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	}
+	
 .logo{
-	display: grid;
-	grid-area: "logo";
-	justify-self: start;
-	margin-left: 60px;
+	display: grid;
+	grid-area: "logo";
+	justify-self: start;
+	margin-left: 60px;
 	color:white;
-}
+	}
+	
 .home{
-	display: grid;
-	grid-area: "home";
-	padding: 0;
-	align-self: center;
+	display: grid;
+	grid-area: "home";
+	padding: 0;
+	align-self: center;
 	color:white;
-}
+	}
+	
 .quien{
-	display: grid;
-	grid-area: quienes;
-	align-self: center;
-	color:white;
-}
+	display: grid;	
+	grid-area: quienes;	
+	align-self: center;	
+	color:white;	
+	}
+	
 .services{
-	grid-area: servicios;
-	align-self: center;
-	color:white;
-}
-.galery{
-	grid-area: galeria;
-	align-self: center;
-	color:white;
-}
-.contac{
-	grid-area: contacto;
-	align-self: center;
+	grid-area: servicios;
+	align-self: center;
+	color:white;	
+	}
+	
+.galery{	
+	grid-area: galeria;	
+	align-self: center;	
+	color:white;	
+	}
+	
+.contac{	
+	grid-area: contacto;	
+	align-self: center;
 	color:white;
 }
 
+	
+.teambutton {	
+	text-align: center;
+	color:white;
+	font-size: 0.95em;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	grid-area: a;
+	align-self: end;
+}
 
+.seccion{
+	background-color: #000;
+	height: 400px;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: "a b";
+	justify-items: center;
+}
+
+.seccion h3{
+	grid-area: b;
+	align-self: start;
+}
+.content{
+	grid-area: b;
+	align-self: center;
+}
+.teambutton{
+	grid-area: b;
+	cursor: pointer;
+	align-self: end;
+}
  #nav .current a {
 	 color:red;
 }
@@ -481,20 +514,6 @@ li.list_desc h4 a:hover{
 	margin: 2%;
 }
 
-/*Team button*/
-
-.teambutton {
-	text-align: center;
-	color: #000;
-	font-size: 0.95em;
-	text-transform: uppercase;
-	text-align: center;
-	font-weight: 600;
-}
-.teambutton:hover {
-	color: #000;
-}
-
 /*--main--*/
 .content-top{
 	padding:10% 0;
@@ -815,6 +834,7 @@ p.m_5{
 	overflow: hidden;
 	margin: 20px 0;
 
+
 }
 
 .parallax {
@@ -824,6 +844,7 @@ p.m_5{
 	background-size: cover;
 	height: 100vh;
 	margin-top: 200px;
+	transition: all 5s cubic-bezier(0.075, 0.82, 0.165, 1);
 	z-index: 10;
 }
 
@@ -2158,9 +2179,9 @@ h4.m_11 {
 	 width:50px !important;
 	 height:50px !important;
   }
-  .register-top-grid(
+  .register-top-grid{
   	margin-bottom:20px;
-  )
+  }
   .nav {
 	top: 66px;
 	right: 8px;
