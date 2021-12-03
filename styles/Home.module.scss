@@ -1,12 +1,26 @@
-@import './scss/variables.scss';
+@import './scss/_variables.scss';
+@import './scss/_extends.scss';
 
 .header {
-  background-color: $black;
-  width: 100%;
-  position: relative;
-  padding: 0;
+  @extend %nav;
+  grid-template: 1fr / 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "logo button button button button button";
 }
-
+.home{
+  @extend %button_header;
+}
+.us{
+  @extend %button_header;
+}
+.service{
+  @extend %button_header;
+}
+.galery{
+  @extend %button_header;
+}
+.conctact{
+  @extend %button_header;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;

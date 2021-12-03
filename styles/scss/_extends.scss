@@ -1,0 +1,16 @@
+@import './variables.scss';
+
+%nav {
+    background-color: $black;
+    height: $head-height;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    display:grid;
+}
+%button_header {
+    grid-area: button;
+    font-family: $krub;
+    display: inline;
+    justify-self: center;
+}

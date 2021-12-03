@@ -2,9 +2,13 @@ import styles from '../../../styles/Home.module.scss'
 
 export default function Header() {
     return (
-    <div className={styles.header}>
-        <button>a</button>
-    </div>
+    <nav className={styles.header}>
+        <button class="home">HOME</button>
+        <button class="us">QUIENES SOMOS</button>
+        <button class="service">SERVICIOS</button>
+        <button class="galery">GALERIA</button>
+        <button class="contact">CONTACTO</button>
+    </nav>
     )
   }
   
