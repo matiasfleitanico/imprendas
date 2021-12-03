@@ -9,8 +9,8 @@
     display:grid;
 }
 %button_header {
-    grid-area: button;
+    background-color: $black;
     font-family: $krub;
+    color: $white;
     display: inline;
-    justify-self: center;
 }

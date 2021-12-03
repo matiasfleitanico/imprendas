@@ -3,11 +3,13 @@ import styles from '../../../styles/Home.module.scss'
 export default function Header() {
     return (
     <nav className={styles.header}>
-        <button class="home">HOME</button>
-        <button class="us">QUIENES SOMOS</button>
-        <button class="service">SERVICIOS</button>
-        <button class="galery">GALERIA</button>
-        <button class="contact">CONTACTO</button>
+        <div></div>
+        <button>HOME</button>
+        <button>QUIENES SOMOS</button>
+        <button>SERVICIOS</button>
+        <button>GALERIA</button>
+        <button>CONTACTO</button>
+        <div></div>
     </nav>
     )
   }

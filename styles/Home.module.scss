@@ -3,25 +3,25 @@
 
 .header {
   @extend %nav;
-  grid-template: 1fr / 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: "logo button button button button button";
+  grid-template: 1fr / 1fr 150px 150px 150px 150px 150px 1fr;
+  button{
+    @extend %button_header;
+    border: 0;
+  }
+  button:hover{
+    background-color: $white;
+    color: $black;
+  }
 }
-.home{
-  @extend %button_header;
-}
-.us{
-  @extend %button_header;
-}
-.service{
-  @extend %button_header;
-}
-.galery{
-  @extend %button_header;
-}
-.conctact{
-  @extend %button_header;
+.slider{
+  img{
+    width: 100%;
+    max-height: 570px;
+    filter:brightness(0.4)
+  }
 }
 .main {
+  width: 100%;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
