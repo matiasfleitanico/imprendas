@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import Header from '../public/componentes/presentacionales/header'
 import Slider from '../public/componentes/presentacionales/slider'
+import Description from '../public/componentes/presentacionales/description'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Header/> 
       <Slider />
+      <Description />
       <h1>
         Bienvenidos a Sol y Piletas
       </h1>

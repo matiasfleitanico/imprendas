@@ -20,6 +20,19 @@
     filter:brightness(0.4)
   }
 }
+.description{
+  width: 100px;
+  grid-template: 1fr /1fr 1fr;
+  grid-template-areas: "imagen container";
+}
+.image1{
+  grid-area: imagen;
+}
+.container-description{
+  display: inline;
+  background-color: black;
+  grid-area: container;
+}
 .main {
   width: 100%;
   min-height: 100vh;
