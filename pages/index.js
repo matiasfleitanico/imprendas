@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Header from '../public/componentes/presentacionales/header'
 
 export default function Home() {
   return (
@@ -9,6 +10,8 @@ export default function Home() {
         <title>Sol y Piletas</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header/> 
+      
       <h1>
         Bienvenidos a Sol y Piletas
       </h1>
