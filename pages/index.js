@@ -7,6 +7,7 @@ import Description from '../public/componentes/presentacionales/description'
 import Separator from '../public/componentes/parts/separator'
 import Service from '../public/componentes/presentacionales/service'
 import Pala from '../public/componentes/icons/pala'
+import Form from '../public/componentes/presentacionales/form'
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <Description />
       <Separator />
       <Service />
+      <Form />
 
       <footer className={styles.footer}>
         <a

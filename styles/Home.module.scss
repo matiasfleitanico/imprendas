@@ -58,6 +58,16 @@
     @extend %parraf;
   }
 }
+.formContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-areas: "con form";
+}
+.form{
+  .span{
+    display: block
+  }
+}
 .service {
   width: 100%;
   display: grid;
@@ -109,13 +119,10 @@
   align-items: center;
   flex-grow: 1;
 }
-
-
 .logo {
   height: 1em;
   margin-left: 0.5rem;
 }
-
 @media (max-width: 600px) {
   .grid {
     width: 100%;
