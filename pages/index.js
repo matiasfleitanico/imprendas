@@ -4,11 +4,10 @@ import styles from '../styles/Home.module.scss'
 import Header from '../public/componentes/presentacionales/header'
 import Slider from '../public/componentes/presentacionales/slider'
 import Description from '../public/componentes/presentacionales/description'
-<<<<<<< HEAD
-=======
-import Service from '../public/componentes/presentacionales/service'
 import Separator from '../public/componentes/parts/separator'
->>>>>>> c87a1b521433eeaa5fb71238bde6423b7ff166c2
+import Service from '../public/componentes/presentacionales/service'
+import Pala from '../public/componentes/icons/pala'
+
 
 export default function Home() {
   return (
@@ -22,7 +21,6 @@ export default function Home() {
       <Separator />
       <Description />
       <Separator />
-
       <Service />
 
       <footer className={styles.footer}>
