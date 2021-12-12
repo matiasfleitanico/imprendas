@@ -12,5 +12,28 @@
     background-color: $black;
     font-family: $krub;
     color: $white;
+    cursor: pointer;
     display: inline;
+}
+%subtitle {
+    font-family: $averia;
+    color: $grey_dark;
+    font-size: 2em;
+    margin: 0
+}
+%parraf {
+    font-family: $halant;
+    color: $grey_dark;
+    font-size: 16px;
+}
+
+%button {
+    font-family: $averia;
+    color: $white;
+    background-color: $black;
+    cursor: pointer;
+    font-size: 16px;
+    border: 0;
+    width: 170px;
+    height: 45px;
 }

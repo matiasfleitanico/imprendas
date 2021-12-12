@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Halant:wght@300&family=Krub:wght@400;700&family=Playfair+Display&display=swap');
 
 $krub: 'Krub';
+$averia: 'Averia Serif Libre';
+$playfair: 'Playfair Display', serif;
+$halant: 'Halant', sans-serif;
 //Colors
 $black: #121212;
 $white: #e4e4e4;
+$grey_dark: #5d5d5d;
+$grey_light: #efefef;
 
 //Sizes
 $head-height: 65px;

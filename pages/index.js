@@ -4,6 +4,11 @@ import styles from '../styles/Home.module.scss'
 import Header from '../public/componentes/presentacionales/header'
 import Slider from '../public/componentes/presentacionales/slider'
 import Description from '../public/componentes/presentacionales/description'
+<<<<<<< HEAD
+=======
+import Service from '../public/componentes/presentacionales/service'
+import Separator from '../public/componentes/parts/separator'
+>>>>>>> c87a1b521433eeaa5fb71238bde6423b7ff166c2
 
 export default function Home() {
   return (
@@ -14,9 +19,11 @@ export default function Home() {
       </Head>
       <Header/> 
       <Slider />
-      <h1>
-        Bienvenidos a Sol y Piletas
-      </h1>
+      <Separator />
+      <Description />
+      <Separator />
+
+      <Service />
 
       <footer className={styles.footer}>
         <a
@@ -24,12 +31,13 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          Desarrolado por{' '}
+          <span className={styles.loego}>
+            <Image src="/logo" alt="Making Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
     </div>
   )
 }
+// mongodb+srv://making:<password>@first.7ydvr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
