@@ -4,8 +4,10 @@ import styles from '../styles/Home.module.scss'
 import Header from '../public/componentes/presentacionales/header'
 import Slider from '../public/componentes/presentacionales/slider'
 import Description from '../public/componentes/presentacionales/description'
-import Service from '../public/componentes/presentacionales/service'
 import Separator from '../public/componentes/parts/separator'
+import Service from '../public/componentes/presentacionales/service'
+import Form from '../public/componentes/presentacionales/form'
+
 
 export default function Home() {
   return (
@@ -19,8 +21,8 @@ export default function Home() {
       <Separator />
       <Description />
       <Separator />
-
       <Service />
+      <Form />
 
       <footer className={styles.footer}>
         <a
