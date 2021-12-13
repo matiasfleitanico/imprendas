@@ -37,4 +37,4 @@ export default function Home() {
     </div>
   )
 }
-// mongodb+srv://making:<password>@first.7ydvr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+// mongodb+srv://making:<password>@first.7ydvr.mongodb.net/myFirstDatabase?retryWrites=true&w=majorityb
