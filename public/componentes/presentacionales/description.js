@@ -5,6 +5,7 @@ import { text } from '../parts/subtitle'
 import Image1 from '../parts/image1'
 import { loadGetInitialProps } from 'next/dist/shared/lib/utils'
 
+
 export default function Description() {
     return (
     <section className={styles.description}>

@@ -7,6 +7,7 @@ import Description from '../public/componentes/presentacionales/description'
 import Separator from '../public/componentes/parts/separator'
 import Service from '../public/componentes/presentacionales/service'
 import Form from '../public/componentes/presentacionales/form'
+import GaleryHome from '../public/componentes/presentacionales/galeryHome'
 
 
 export default function Home() {
@@ -22,6 +23,8 @@ export default function Home() {
       <Description />
       <Separator />
       <Service />
+      <GaleryHome />
+      <Separator />
       <Form />
 
       <footer className={styles.footer}>

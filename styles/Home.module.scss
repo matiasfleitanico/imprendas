@@ -62,31 +62,286 @@
   display: grid;
   grid-template-columns: 1fr 1fr ;
   grid-template-areas: "con form";
+  background-color: #efefef;
 }
 .form{
   .span{
     display: block
   }
 }
+.containerService{
+  display: grid;
+  justify-items: center;
+
+}
 .service {
   width: 100%;
+  background-color: $black;
   display: grid;
-  grid-template-columns:1fr 1fr;
-  grid-template-areas: "imagen container";
-  min-height: 500px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:80px 350px;
+  grid-template-areas: 
+  "subt subt subt"
+  "a b c";
+}
+.galeryImage {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  justify-items: center;
+  transition: all 1s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  min-width: 250px;
+  height: 250px;
+  margin: 40px 1% 0;
+  justify-content: center;
+}
+.border{
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: 18%;
+
+}
+.border1{
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: 27%;
+}
+@media only screen and (max-width: 1400px) {
+  .border {
+    min-width: 24%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .border {
+    min-width: 22%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .border {
+    min-width: 19%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .border {
+    min-width: 16%;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .border {
+    min-width: 14%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .border {
+    min-width: 12%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .border {
+    min-width: 10%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .border {
+    min-width: 5%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .border {
+    display: none
+  }
+  .galeriaMini{
+    display: none;
+  }
+}
+.galeria{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  min-width: 100%;
+}.galeriaOff{
+  display: none;
+}
+.galeryHome {
+  background-color: $grey_light;
+  height: 430px;
+}
+.galeryMini {
+  width: 2000px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  transition: all 1s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  justify-items: center;
+}
+.boxCenter {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+.inputStyle{
+  border: 0;
+  background-color: #e4e4e4;
+  border-radius: 7px;
+  height: 35px;
+  width: 100%;
+  padding: 5px;
+  transition: all 100ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+.inputStyleText {
+  border: 0;
+  background-color: #e4e4e4;
+  border-radius: 7px;
+  height: 100px;
+  width: 100%;
+  padding: 5px;
+  transition: all 100ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+.inputStyle:focus {
+  padding: 10px;
+}
+.inputStyleText:focus {
+  padding: 10px;
+}
+.buttonForm{
+  @extend %button;
+}
+.subtitle2{
+  text-align: center;
+  text-justify: end;
+  grid-area: subt;
+  height: 30px;
+  margin:0;
+  color: $white;
+}
+.subtitleForm {
+  @extend %parraf_2;
+}
+.subtitleForm2 {
+  @extend %subtitle;
+  font-size: 17px;
+  margin: 10px 0;
+}
+.subtitleForm3 {
+  @extend %subtitle;
+  font-size: 15px;
+  margin: 10px 0;
+}
+.datos {
+  display: grid;
+  grid-template:100px 70px 70px/ 1fr 1fr;
+  grid-template-areas:
+    "ti ti"
+    "dat1 dat2"
+    "dat3 dat3";
+    margin: 9% 9%;
+    section{
+      grid-area: ti;
+    }
+    .dat1 {
+      grid-area: dat1;
+    }
+    .dat2 {
+      grid-area: dat2;
+    }
+    .dat3 {
+      grid-area: dat3;
+    }
+}
+.containerSub{
+  display: grid;
+  justify-content: center;
+  h5{
+    color: $white;
+    margin-top: 45px;
+    display: grid;
+    justify-self: center;
+    text-justify: center;
+    width: 100%;
+  }
+  p{
+    @extend %parraf;
+    color: $white;
+    width: 200px;
+  }
+}
+.formPattern {
+  display: grid;
+  grid-template:1fr 1fr 150px 1fr/ 1fr 1fr;
+  grid-template-areas:
+    "a b"
+    "c c"
+    "d d"
+    "h e" ;
+  margin: 7% 8%;
+}
+.primer{
+  margin: 10px 8px 0;
+  grid-area: a;
+  span{
+    margin: 0 5px
+  }
+  input{
+    margin-top: 10px;
+  }
+}
+.segundo{
+  margin: 10px 8px 0;
+  grid-area: b;
+  span{
+    margin: 0 5px
+  } 
+  input{
+    margin-top: 10px;
+  }
+}
+.tercer{
+  margin: 10px 8px 0;
+  grid-area: c;
+  span{
+    margin: 0 5px
+  } 
+  input{
+    margin-top: 10px;
+  }
+}
+.cuarto{
+  margin: 10px 8px 0;
+  grid-area: d;
+  span{
+    margin: 0 5px
+  }
+  input{
+    margin-top: 10px;
+  }
+}
+.buttonFormBox {
+  grid-area: e;
+  margin: 20px 8px;
+  display: grid;
+  justify-self: end;
+}
+.circle{
+  background-color: $grey_light;
+  border-radius: 300px;
+  width: 120px;
+  height: 120px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  .markFont{
+    height: 60px;
+    width: 60px;
+  }
 }
 .containerService1 {
-  background-color: $grey_light;
-  grid-area: imagen;
+  grid-area: 1;
   padding: 2em 3em;
   display: grid;
   justify-content: center;
   p {
     @extend %parraf;
   }
-}
-.containerService2 {
-  grid-area: container;
 }
 .button {
   @extend %button;
