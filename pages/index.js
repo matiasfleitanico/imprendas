@@ -21,7 +21,6 @@ export default function Home() {
       <Slider />
       <Separator />
       <Description />
-      <Separator />
       <Service />
       <GaleryHome />
       <Separator />

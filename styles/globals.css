@@ -85,7 +85,7 @@ body {
   flex-wrap: nowrap;
   overflow: hidden;
   height: auto;
-  margin-left: -110%;
+  margin-left: -107%;
   transition: all 1500ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
 }
 .no-active {
@@ -109,4 +109,31 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.headerMobileOn{
+  transition: all 1500ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  background-color: #121212;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  display:grid;
+  position: fixed;
+  z-index: 100;
+  grid-template: 10px 1fr 1fr 1fr 1fr 1fr/ 1fr;
+  height: 300px;
+  margin-top:40px
+}
+.headerMobileOff{
+  transition: all 800ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  background-color: #121212;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  display:grid;
+  position: fixed;
+  z-index: 100;
+  grid-template: 10px 1fr 1fr 1fr 1fr 1fr/ 1fr;
+  height: 300px;
+  margin-top:-100%
 }

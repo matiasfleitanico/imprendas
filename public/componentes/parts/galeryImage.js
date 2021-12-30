@@ -1,7 +1,5 @@
 import styles from '../../../styles/Home.module.scss'
 import React, { Component } from 'react/cjs/react.production.min';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes } from '@fortawesome/free-solid-svg-icons'
 
   class GaleryImge extends React.Component {
     constructor(props) {
@@ -73,7 +71,7 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons'
         <section>
             <div   onClick={this.handleClick} style={this.state.visible ? myStyle1 : myBack}></div>
                 <div  style={this.state.visible ? myStyle1 : myStyle2}>
-                <FontAwesomeIcon style={icon} onClick={this.handleClick} icon={faTimes} />
+                <button style={icon} onClick={this.handleClick}/>
                 </div> 
         </section>
             </div>

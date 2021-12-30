@@ -1,25 +1,27 @@
 import styles from '../../../styles/Home.module.scss'
 import Subtitle from '../parts/subtitle'
 import emailjs from 'emailjs-com'
-import { useState } from "react";
+import { useState } from "react"
 
+let myStyle = {
+    backgroundColor: '#121212',
+    width: '400px',
+    height: '100px',
+    position: 'fixed',
+    top: '15%',
+    left: '35%',
+    rigth: '0',
+    borderRadius: '10px',
+    padding: '30px 15px 10px',
+    textAlign: 'center',
+    color: 'white',
+    fontFamily: 'belleza',
+    justifyContent:'center'
+
+}
 const Result = () => {
-    let myStyle = {
-        backgroundColor: '#121212',
-        width: '400px',
-        height: '100px',
-        position: 'fixed',
-        top: '15%',
-        left: '35%',
-        rigth: '0',
-        borderRadius: '10px',
-        padding: '30px 15px 10px',
-        textAlign: 'center',
-        color: 'white',
-        fontFamily: 'belleza',
-        justifyContent:'center'
 
-    }
+
         return(
         <p style={myStyle}>Su mensaje fue enviado correctamente. <br />Te contactaremos en breve.</p>
         )
@@ -44,8 +46,9 @@ export default function Form() {
         let inputStyle = {
             border: '0'
         }
-      return  (     
-      <section className={styles.formContainer}>
+      return  (
+        <div className={styles.FormContainer}>
+
       <div className={styles.datos}> 
         <section><Subtitle text="Datos de contacto" />
         <p className={styles.subtitleForm2}>Comunícate con nosotros</p>
@@ -98,6 +101,6 @@ export default function Form() {
           <div>{result ? <Result /> : null}</div>
       </form>
       </div>
-  </section>
+      </div>
     )
   }

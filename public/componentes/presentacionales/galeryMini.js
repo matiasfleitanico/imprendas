@@ -6,18 +6,15 @@ import { Component } from 'react/cjs/react.production.min';
 
     render() {
       return   <div>
-          <div className={styles.galeria}>
+          <div className={styles.Galeria}>
             <section id="galeria" className={styles.galeryMini}>
-                <div className={styles.border}></div>
+                <div className={styles.Border}/>
                     <GaleryImage image={this.props.image1}/>
                     <GaleryImage image={this.props.image2}/>
                     <GaleryImage image={this.props.image3}/>
-                <div className={styles.border1}></div>
+                    <div className={styles.Border}/>
             </section>
           </div>
-            <section  className={styles.galeriaOff}>
-                    <GaleryImage image={this.props.image1}/>
-            </section>
           </div>;
     }
   }
