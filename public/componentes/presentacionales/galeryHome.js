@@ -4,6 +4,8 @@ import React, { Component } from 'react/cjs/react.production.min';
 import Button from '../parts/button';
 import Subtitle from '../parts/subtitle';
 import GaleryImage from "../parts/galeryImage"
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import Link from 'next/link'
 
 
 class GaleryHome extends React.Component {
@@ -27,27 +29,27 @@ class GaleryHome extends React.Component {
             </div >  
             <div className="container">
             <div className={this.state.visible?'galeryHome':'active'}>
-                <GaleryMini  image1="slider1" image2="slider2" image3="slider1"/>
+                <GaleryMini  image1="gal_25.jpeg" image2="gal_66.jpeg" image3="gal_65.jpeg"/>
             </div>
             <div className="minBox"></div>
             <div className={this.state.visible?'no-active':'galeryHome'}>
-                <GaleryMini  image1="slider1" image2="slider2" image3="slider1"/>
+                <GaleryMini  image1="gal_42.jpeg" image2="gal_67.jpeg" image3="gal_41.jpeg"/>
             </div>
             </div> 
             <div className={this.state.visible?'arrow-right':'arrow-right-off'}>
-            <button onClick={this.handleClick} />
+            <FaChevronRight onClick={this.handleClick}/>
             </div>  
             <div className={this.state.visible?'arrow-left-off':'arrow-left'}>
-            <button onClick={this.handleClick}/>
+            <FaChevronLeft onClick={this.handleClick}/>
             </div> 
             <div className={styles.GaleryOff}>
                     <GaleryImage image='slider1'/>
             </div> 
             <div className={styles.boxCenter}>
-                <Button text="Ver más"/>
+            <Link href="/galeria">
+                <Button link="galeria" text="Ver más"/>
+            </Link>
             </div>   
-
-
             </section>;
     }
   }

@@ -3,8 +3,6 @@ import Subtitle from '../parts/subtitle'
 import Button from '../parts/button'
 import Image1 from '../parts/image1'
 import React, { Component } from 'react/cjs/react.production.min'
-import styled from 'styled-components'
-
 
   class Description extends React.Component {
     constructor(props) {
@@ -21,6 +19,11 @@ import styled from 'styled-components'
     }
 
     render() {
+      let myStyle = {
+        display: "block",
+        alignItems: "center",
+        justifyItems: "center"
+      }
       return       <section className={styles.Description}>
         <div className={styles.ContainerDescription1}> 
             <Image1 image="slider2" />
@@ -37,7 +40,9 @@ import styled from 'styled-components'
           Brindamos compromiso y dedicación en cada trabajo, 
           escuchando las necesidades de cada cliente para poder lograr que realice una inversión de placer, 
           que durará para toda la vida.</p>
-          <Button text="Conoce más"/>
+          <div style={myStyle}>          
+            <Button link="galeria" text="Conoce más"/>
+          </div>
       </div>
   </section>
     }

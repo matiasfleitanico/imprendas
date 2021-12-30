@@ -1,6 +1,6 @@
-import styled from  'styled-components'
 import React from 'react/cjs/react.production.min'
 import styles from '../../../styles/Home.module.scss'
+import { FaWrench, FaPencilAlt, FaCog } from 'react-icons/fa';
 
 
   class Service extends React.Component {
@@ -13,6 +13,11 @@ import styles from '../../../styles/Home.module.scss'
     }
 
     render() {
+        let myStyle ={
+            alignSelf:"center",
+            justifySelf:"center",
+            color: "#121212"
+            }
  
         return <div className={styles.Services}>
     <h1 className={styles.Title}>¿QUÉ HACEMOS?</h1>
@@ -20,8 +25,7 @@ import styles from '../../../styles/Home.module.scss'
     <div className={styles.Cont1}>
     <div className={styles.ContainerService}>
           <div className={styles.Circle}>
-            <div className={styles.MarkFont}>
-              </div>
+            <FaWrench style={myStyle} size={60}/>
           </div>
           <div className={styles.Div}>
           <div className={styles.ContainerSub}>
@@ -38,8 +42,7 @@ import styles from '../../../styles/Home.module.scss'
     <div className={styles.Cont2}>
     <div className={styles.ContainerService}>
     <div className={styles.Circle}>
-            <div className={styles.MarkFont}>
-              </div>
+            <FaPencilAlt style={myStyle} size={60}/>
           </div>
           <div className={styles.Div}>
               <div className={styles.ContainerSub}>
@@ -55,8 +58,7 @@ import styles from '../../../styles/Home.module.scss'
     <div className={styles.Cont3}>
     <div className={styles.ContainerService}>
           <div className={styles.Circle}>
-            <div className={styles.MarkFont}>
-              </div>
+            <FaCog style={myStyle} size={60}/>
           </div>
           <div className={styles.Div}>
           <div className={styles.ContainerSub}>

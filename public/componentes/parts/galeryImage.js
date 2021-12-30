@@ -1,5 +1,6 @@
 import styles from '../../../styles/Home.module.scss'
 import React, { Component } from 'react/cjs/react.production.min';
+import { FaTimes } from 'react-icons/fa';
 
   class GaleryImge extends React.Component {
     constructor(props) {
@@ -20,7 +21,7 @@ import React, { Component } from 'react/cjs/react.production.min';
             display: "none",
             }
         let myStyle2 ={
-            backgroundImage: "url(../../img/"+ myImage +".jpg)",
+            backgroundImage: "url(../../img/"+ myImage +")",
             width: '56%',
             height: '68%',
             backgroundSize: "cover",
@@ -33,7 +34,7 @@ import React, { Component } from 'react/cjs/react.production.min';
             zIndex:'30'
             }
         let myStyle = {
-            backgroundImage: "url(../../img/"+ myImage +".jpg)",
+            backgroundImage: "url(../../img/"+ myImage +")",
             width: '200px',
             height: '200px',
             backgroundSize: "cover",
@@ -71,7 +72,7 @@ import React, { Component } from 'react/cjs/react.production.min';
         <section>
             <div   onClick={this.handleClick} style={this.state.visible ? myStyle1 : myBack}></div>
                 <div  style={this.state.visible ? myStyle1 : myStyle2}>
-                <button style={icon} onClick={this.handleClick}/>
+                <FaTimes size={60} style={icon} onClick={this.handleClick}/>
                 </div> 
         </section>
             </div>

@@ -90,7 +90,7 @@ export default function Form() {
             <div className={styles.cuarto}>
                 <label>
                     <span className={styles.subtitleForm}> MENSAJE O CONSULTA:</span>
-                    <textarea className={styles.inputStyleText} name="message" minlength="6" required/>
+                    <textarea className={styles.inputStyleText} name="message" minlength="6"/>
                 </label>
             </div>
             <div className={styles.buttonFormBox}>
