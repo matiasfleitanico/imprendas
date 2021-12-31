@@ -1,6 +1,8 @@
 {
   "name": "sol-y-piletas",
   "private": true,
+  
+  "homepage":"http://www.solypiletas.com.ar",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
