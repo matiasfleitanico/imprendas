@@ -72,13 +72,13 @@ export default function Form() {
             <div className={styles.primer}>
                 <label>
                     <span className={styles.subtitleForm}> NOMBRE Y APELLIDO: </span>
-                    <input className={styles.inputStyle} type="text" name="fullName" minlength="4" required/>
+                    <input className={styles.inputStyle} type="text" name="fullName" minLength="2" required/>
                 </label>
             </div>
             <div className={styles.segundo}>
                 <label>
                     <span className={styles.subtitleForm}> NÙMERO DE CELULAR: </span>
-                    <input className={styles.inputStyle} minlength="6" maxlength="11" type="number" name="phone"  required/>
+                    <input className={styles.inputStyle} type="number" name="phone"/>
                 </label>
             </div>  
             <div className={styles.tercer}>
@@ -90,7 +90,7 @@ export default function Form() {
             <div className={styles.cuarto}>
                 <label>
                     <span className={styles.subtitleForm}> MENSAJE O CONSULTA:</span>
-                    <textarea className={styles.inputStyleText} name="message" minlength="6"/>
+                    <textarea className={styles.inputStyleText} name="message" minLength="6"/>
                 </label>
             </div>
             <div className={styles.buttonFormBox}>

@@ -4,7 +4,7 @@ export default function Image1(props) {
     let myStyle = {
         backgroundImage: "url(../../img/"+ props.image + ")",
         backgroundSize: "cover",
-        backgroundPosition: "center 50%",
+        backgroundPosition: "center 10%",
         backgroundRepeat: "no-repeat",    
     };
     return (

@@ -43,7 +43,7 @@ class GaleryHome extends React.Component {
             <FaChevronLeft onClick={this.handleClick}/>
             </div> 
             <div className={styles.GaleryOff}>
-                    <GaleryImage image='slider1'/>
+                    <GaleryImage image="25.jpeg"/>
             </div> 
             <div className={styles.boxCenter}>
             <Link href="/galeria">

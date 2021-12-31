@@ -1,6 +1,7 @@
 import GaleryImge from '../parts/galeryImage';
 import styles from '../../../styles/Home.module.scss'
-import React, { Component } from 'react/cjs/react.production.min';
+import React from 'react/cjs/react.production.min';
+import Subtitle from '../parts/subtitle';
 
 
 
@@ -19,7 +20,13 @@ class Galery extends React.Component {
     }
 
     render() {
-      return   <section className={styles.galerys}>
+      return  <div> 
+                    <div className={styles.titleGalery} >   
+                    <div className={styles.boxCenter}>      
+                <Subtitle  text="Algunos de nuestros trabajos" />
+                </div>
+              </div>
+              <section className={styles.galerys}>
             <GaleryImge image="1.jpeg"/>
             <GaleryImge image="2.jpeg"/>
             <GaleryImge image="3.jpeg"/>
@@ -83,8 +90,13 @@ class Galery extends React.Component {
             <GaleryImge image="61.jpeg"/>
             <GaleryImge image="62.jpeg"/>
             <GaleryImge image="63.jpeg"/>
-
-            </section>;
+            <GaleryImge image="64.jpeg"/>
+            <GaleryImge image="65.jpeg"/>
+            <GaleryImge image="66.jpeg"/>
+            <GaleryImge image="67.jpeg"/>
+            <GaleryImge image="68.jpeg"/>
+            </section>
+            </div>;
     }
   }
   export  default Galery

@@ -40,7 +40,7 @@ import React, { Component } from 'react/cjs/react.production.min'
           Brindamos compromiso y dedicación en cada trabajo, 
           escuchando las necesidades de cada cliente para poder lograr que realice una inversión de placer, 
           que durará para toda la vida.</p>
-          <div style={myStyle}>          
+          <div className={styles.boxCenter}>        
             <Button link="galeria" text="Conoce más"/>
           </div>
       </div>

@@ -25,7 +25,7 @@ import { FaWrench, FaPencilAlt, FaCog } from 'react-icons/fa';
     <div className={styles.Cont1}>
     <div className={styles.ContainerService}>
           <div className={styles.Circle}>
-            <FaWrench style={myStyle} size={60}/>
+            <FaWrench style={myStyle} size={40}/>
           </div>
           <div className={styles.Div}>
           <div className={styles.ContainerSub}>
@@ -42,7 +42,7 @@ import { FaWrench, FaPencilAlt, FaCog } from 'react-icons/fa';
     <div className={styles.Cont2}>
     <div className={styles.ContainerService}>
     <div className={styles.Circle}>
-            <FaPencilAlt style={myStyle} size={60}/>
+            <FaPencilAlt style={myStyle} size={40}/>
           </div>
           <div className={styles.Div}>
               <div className={styles.ContainerSub}>
@@ -58,7 +58,7 @@ import { FaWrench, FaPencilAlt, FaCog } from 'react-icons/fa';
     <div className={styles.Cont3}>
     <div className={styles.ContainerService}>
           <div className={styles.Circle}>
-            <FaCog style={myStyle} size={60}/>
+            <FaCog style={myStyle} size={40}/>
           </div>
           <div className={styles.Div}>
           <div className={styles.ContainerSub}>

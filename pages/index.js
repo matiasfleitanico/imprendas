@@ -14,7 +14,7 @@ export default function Home() {
   return (
   <div className={styles.container}>
       <Head>
-        <title>Sol y Piletas</title>
+        <title>Sol y Piletas | Una inversión de placer | Piscinas de hormigón</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/> 
