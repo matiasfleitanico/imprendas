@@ -26,7 +26,7 @@ import React, { Component } from 'react/cjs/react.production.min'
       }
       return       <section className={styles.Description}>
         <div className={styles.ContainerDescription1}> 
-            <Image1 image="slider2" />
+            <Image1 image="20.jpeg" />
         </div>
       <div className={styles.containerDescription2}>    
           <Subtitle text="Piletas de hormigón"/>

@@ -2,7 +2,7 @@ import styles from '../../../styles/Home.module.scss'
 
 export default function Image1(props) {
     let myStyle = {
-        backgroundImage: "url(../../img/"+ props.image + ".jpg)",
+        backgroundImage: "url(../../img/"+ props.image + ")",
         backgroundSize: "cover",
         backgroundPosition: "center 50%",
         backgroundRepeat: "no-repeat",    

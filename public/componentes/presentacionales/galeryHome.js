@@ -29,11 +29,11 @@ class GaleryHome extends React.Component {
             </div >  
             <div className="container">
             <div className={this.state.visible?'galeryHome':'active'}>
-                <GaleryMini  image1="slider1.jpg" image2="66.jpeg" image3="65.jpeg"/>
+                <GaleryMini  image1="25.jpeg" image2="67.jpeg" image3="42.jpeg"/>
             </div>
             <div className="minBox"></div>
             <div className={this.state.visible?'no-active':'galeryHome'}>
-                <GaleryMini  image1="42.jpeg" image2="67.jpeg" image3="41.jpeg"/>   
+                <GaleryMini  image1="21.jpeg" image2="68.jpeg" image3="41.jpeg"/>   
             </div>
             </div> 
             <div className={this.state.visible?'arrow-right':'arrow-right-off'}>
