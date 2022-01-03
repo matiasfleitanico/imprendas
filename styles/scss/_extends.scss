@@ -16,18 +16,17 @@
     display: inline;
 }
 %subtitle {
-    font-family: $belleza;
     color: $grey_dark;
     display: grid;
     justify-self: center;
     font-size: 25px;
     margin: 0;
     height: 50px;
+    text-transform: uppercase;
 }
 %parraf {
-    font-family: $halant;
-    color: $black;
-    font-size: 14px;
+    color: $grey_dark;
+    font-size: 16px;
     max-width: 420px;
     margin-top: 0;
     text-align: center;

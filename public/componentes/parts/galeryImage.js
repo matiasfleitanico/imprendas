@@ -1,6 +1,7 @@
 import styles from '../../../styles/Home.module.scss'
-import React, { Component } from 'react/cjs/react.production.min';
+import React from 'react/cjs/react.production.min';
 import { FaTimes } from 'react-icons/fa';
+
 
   class GaleryImge extends React.Component {
     constructor(props) {
@@ -35,8 +36,8 @@ import { FaTimes } from 'react-icons/fa';
             }
         let myStyle = {
             backgroundImage: "url(../../img/"+ myImage +")",
-            width: '200px',
-            height: '200px',
+            width: '250px',
+            height: '250px',
             backgroundSize: "cover",
             backgroundPosition: 'center 30%',
             backgroundRepeat: 'no-repeat',

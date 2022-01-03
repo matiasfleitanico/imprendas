@@ -46,9 +46,11 @@ class GaleryHome extends React.Component {
                     <GaleryImage image="25.jpeg"/>
             </div> 
             <div className={styles.boxCenter}>
+                <section>
             <Link href="/galeria">
                 <Button link="galeria" text="Ver más"/>
             </Link>
+            </section>
             </div>   
             </section>;
     }

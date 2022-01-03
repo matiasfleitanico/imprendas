@@ -8,23 +8,29 @@ import Separator from '../public/componentes/parts/separator'
 import Service from '../public/componentes/presentacionales/service'
 import Form from '../public/componentes/presentacionales/form'
 import GaleryHome from '../public/componentes/presentacionales/galeryHome'
-
+import Count from '../public/componentes/presentacionales/count'
+import WhatsApp from '../public/componentes/presentacionales/whatsapp'
 
 export default function Home() {
   return (
+
   <div className={styles.container}>
-      <Head>
-        <title>Sol y Piletas | Una inversión de placer | Piscinas de hormigón</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <Head>
+    <title>Sol y Piletas | Una inversión de placer | Piscinas de hormigón</title>
+    <link rel="icon" type="image/ico" sizes="32x32" href="/favicon.ico" />
+    <link rel="icon" type="image/ico" sizes="16x16" href="/favicon-32.ico" />
+    </Head>
+
       <Header/> 
       <Slider />
+      <Count />
       <Separator />
       <Description />
       <Service />
       <GaleryHome />
       <Separator />
       <Form />
+      <WhatsApp/>
 
       <footer className={styles.footer}>
         <a

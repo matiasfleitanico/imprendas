@@ -30,16 +30,25 @@ import Link from 'next/link'
       {!this.state.visible && (<FaTimes size={23} style={myStyle} onClick={this.handleClick}/>)}
       </div>
     <nav className={styles.header}>
-          <div></div>
+          <div className={styles.DivHeader}>          
+          <Link href="/">
+          <img className={styles.imageHeader} src="../../logo.png"></img>
+          </Link></div>
           <Link href="/">
           <button className={styles.buttonHeader}>HOME</button>
           </Link>
+          <Link href="/quienes">
           <button className={styles.buttonHeader}>QUIENES SOMOS</button>
+          </Link>
+          <Link href="/servicios">
           <button className={styles.buttonHeader}>SERVICIOS</button>
+          </Link>
           <Link href="/galeria">
           <button className={styles.buttonHeader}>GALERIA</button>
           </Link>
+          <Link href="/contacto">
           <button className={styles.buttonHeader}>CONTACTO</button>
+          </Link>
           <div></div>
       </nav>
       <nav className={this.state.visible?'headerMobileOff':'headerMobileOn'}>
@@ -47,12 +56,18 @@ import Link from 'next/link'
           <Link href="/">
           <button className={styles.buttonHeader}>HOME</button>
           </Link>
+          <Link href="/quienes">
           <button className={styles.buttonHeader}>QUIENES SOMOS</button>
+          </Link>
+          <Link href="/servicios">
           <button className={styles.buttonHeader}>SERVICIOS</button>
+          </Link>
           <Link href="/galeria">
           <button className={styles.buttonHeader}>GALERIA</button>
           </Link>
+          <Link href="/contacto">
           <button className={styles.buttonHeader}>CONTACTO</button>
+          </Link>
           <div></div>
       </nav>
       </section>;

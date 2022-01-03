@@ -30,9 +30,8 @@ import React, { Component } from 'react/cjs/react.production.min'
         </div>
       <div className={styles.containerDescription2}>    
           <Subtitle text="Piletas de hormigón"/>
-          <p>Somos una empresa familiar que trabaja desde el 2005 en la construcción, 
-          refacción y remodelación de piletas de hormigón.<br/>
-          En estos 16 años de experiencia hemos podido realizar trabajos tanto para 
+          <p>
+          En estos 17 años de experiencia hemos podido realizar trabajos tanto para 
           particulares como para empresas, 
           con resultados óptimos, diseñados tal como lo desee nuestro cliente.
           <br/>

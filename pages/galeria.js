@@ -8,10 +8,11 @@ import Galery from '../public/componentes/presentacionales/galery'
 export default function Home() {
   return (
   <div className={styles.container}>
-      <Head>
-        <title>Sol y Piletas</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <Head>
+    <title>Sol y Piletas | Galería</title>
+    <link rel="icon" type="image/ico" sizes="32x32" href="/favicon.ico" />
+    <link rel="icon" type="image/ico" sizes="16x16" href="/favicon-32.ico" />
+    </Head>
       <Header/> 
     <Galery />
 
