@@ -30,20 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/contacto": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/contacto.js"
-    ],
     "/galeria": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/galeria.js"
-    ],
-    "/quienes": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/quienes.js"
     ],
     "/servicios": [
       "static/chunks/webpack.js",

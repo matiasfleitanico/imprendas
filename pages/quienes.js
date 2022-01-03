@@ -5,7 +5,7 @@ import Header from '../public/componentes/presentacionales/header'
 import Footer from '../public/componentes/presentacionales/footer'
 import Description from '../public/componentes/presentacionales/description'
 import Count from '../public/componentes/presentacionales/count'
-
+import WhatsApp from '../public/componentes/presentacionales/whatsapp'
 
 
 export default function Home() {
@@ -20,6 +20,7 @@ export default function Home() {
       <div className={styles.spaceHeader} />
       <Description />
       <Count />
+      <WhatsApp/>
     <Footer />
     </div>
   )

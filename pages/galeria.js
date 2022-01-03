@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.scss'
 import Header from '../public/componentes/presentacionales/header'
 import Galery from '../public/componentes/presentacionales/galery'
 import Footer from '../public/componentes/presentacionales/footer'
-
+import WhatsApp from '../public/componentes/presentacionales/whatsapp'
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
     </Head>
       <Header/> 
     <Galery />
+    <WhatsApp/>
     <Footer />
     </div>
   )

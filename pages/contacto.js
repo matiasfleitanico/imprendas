@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.scss'
 import Header from '../public/componentes/presentacionales/header'
 import Footer from '../public/componentes/presentacionales/footer'
 import Form from '../public/componentes/presentacionales/form'
-
+import WhatsApp from '../public/componentes/presentacionales/whatsapp'
 
 
 export default function Home() {
@@ -18,6 +18,7 @@ export default function Home() {
       <Header/> 
       <div className={styles.spaceHeader} />
       <Form />
+      <WhatsApp/>
     <Footer />
     </div>
   )

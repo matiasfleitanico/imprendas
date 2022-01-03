@@ -5,8 +5,7 @@ import Header from '../public/componentes/presentacionales/header'
 import Footer from '../public/componentes/presentacionales/footer'
 import Service from '../public/componentes/presentacionales/service'
 import GaleryHome from '../public/componentes/presentacionales/galeryHome'
-
-
+import WhatsApp from '../public/componentes/presentacionales/whatsapp'
 
 export default function Home() {
   return (
@@ -20,6 +19,7 @@ export default function Home() {
       <div className={styles.spaceHeader}/>
       <Service />
       <GaleryHome />
+      <WhatsApp/>
     <Footer />
     </div>
   )
