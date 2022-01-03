@@ -10,6 +10,7 @@ import Form from '../public/componentes/presentacionales/form'
 import GaleryHome from '../public/componentes/presentacionales/galeryHome'
 import Count from '../public/componentes/presentacionales/count'
 import WhatsApp from '../public/componentes/presentacionales/whatsapp'
+import Footer from '../public/componentes/presentacionales/footer'
 
 export default function Home() {
   return (
@@ -31,19 +32,7 @@ export default function Home() {
       <Separator />
       <Form />
       <WhatsApp/>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Desarrolado por{' '}
-          <span className={styles.loego}>
-            <Image src="/logo" alt="Making Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+      <Footer />
     </div>
   )
 }

@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import Header from '../public/componentes/presentacionales/header'
+import Footer from '../public/componentes/presentacionales/footer'
+import Form from '../public/componentes/presentacionales/form'
 
 
 
@@ -14,23 +16,9 @@ export default function Home() {
     <link rel="icon" type="image/ico" sizes="16x16" href="/favicon-32.ico" />
     </Head>
       <Header/> 
-    <h1>ESTO ES Contacto</h1>
-    <h1>ESTO ES Contacto</h1>
-    <h1>ESTO ES Contacto</h1>
-    <h1>ESTO ES Contacto</h1>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Desarrolado por{' '}
-          <span className={styles.loego}>
-            <Image src="/logo" alt="Making Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+      <div className={styles.spaceHeader} />
+      <Form />
+    <Footer />
     </div>
   )
 }
