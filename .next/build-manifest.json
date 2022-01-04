@@ -34,11 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/galeria.js"
-    ],
-    "/servicios": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/servicios.js"
     ]
   },
   "ampFirstPages": []

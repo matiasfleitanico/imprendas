@@ -59,10 +59,10 @@ import { FaTimes } from 'react-icons/fa';
             zIndex: '20',
         };
         let icon = {
-            color: 'white',
+            color: 'grey',
             width: '20px',
-            marginLeft: '96%',
-            marginTop: '1%',
+            marginLeft: '110%',
+            marginTop: '-10%',
             cursor: 'pointer'
         }
       return <div>
@@ -72,7 +72,7 @@ import { FaTimes } from 'react-icons/fa';
         </section>
         <section>
             <div   onClick={this.handleClick} style={this.state.visible ? myStyle1 : myBack}></div>
-                <div  style={this.state.visible ? myStyle1 : myStyle2}>
+                <div  style={this.state.visible ? myStyle1 : myStyle2} className={styles.imageBigMobile}>
                 <FaTimes size={60} style={icon} onClick={this.handleClick}/>
                 </div> 
         </section>

@@ -49,9 +49,12 @@ export default function Form() {
       return  (
         <div className={styles.FormContainer}>
 
-      <div className={styles.datos}> 
-        <section><Subtitle text="Datos de contacto" />
-        <p className={styles.subtitleForm2}>Comunícate con nosotros</p>
+      <div className={styles.datos}>
+      <section>
+          <div >        
+          <h1 className={styles.h1normal}>Datos de contacto</h1>
+          </div>
+        <p className={styles.pnormal}>Comunícate con nosotros</p>
         </section>
         <div className={styles.dat1}>
             <h6 className={styles.subtitleForm}> TEL</h6>

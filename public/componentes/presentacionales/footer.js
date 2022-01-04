@@ -9,7 +9,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Desarrolado por Making
+          Desarrollado por Making
         </a>
       </footer>
     )

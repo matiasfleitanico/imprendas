@@ -36,14 +36,19 @@ class GaleryHome extends React.Component {
                 <GaleryMini  image1="21.jpeg" image2="68.jpeg" image3="41.jpeg"/>   
             </div>
             </div> 
+            <div className={styles.off800}>
             <div className={this.state.visible?'arrow-right':'arrow-right-off'}>
-            <FaChevronRight onClick={this.handleClick}/>
+            <FaChevronRight size={38} onClick={this.handleClick}/>
             </div>  
             <div className={this.state.visible?'arrow-left-off':'arrow-left'}>
-            <FaChevronLeft onClick={this.handleClick}/>
+            <FaChevronLeft size={38} onClick={this.handleClick}/>
             </div> 
+            </div>
             <div className={styles.GaleryOff}>
                     <GaleryImage image="25.jpeg"/>
+                    <GaleryImage image="67.jpeg"/>
+                    <GaleryImage image="42.jpeg"/>
+                    <GaleryImage image="21.jpeg"/>
             </div> 
             <div className={styles.boxCenter}>
                 <section>

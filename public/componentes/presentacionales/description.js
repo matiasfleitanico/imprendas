@@ -3,6 +3,7 @@ import Subtitle from '../parts/subtitle'
 import Button from '../parts/button'
 import Image1 from '../parts/image1'
 import React, { Component } from 'react/cjs/react.production.min'
+import Link from 'next/link'
 
   class Description extends React.Component {
     constructor(props) {
@@ -25,9 +26,11 @@ import React, { Component } from 'react/cjs/react.production.min'
         justifyItems: "center"
       }
       return       <section className={styles.Description}>
+                 <Link  href="/galeria">
         <div className={styles.ContainerDescription1}> 
             <Image1 image="20.jpeg" />
         </div>
+        </Link>
       <div className={styles.containerDescription2}>    
           <Subtitle text="Piletas de hormigón"/>
           <p>
