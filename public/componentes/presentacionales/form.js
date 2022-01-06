@@ -62,7 +62,7 @@ export default function Form() {
         </div>
         <div className={styles.dat2}>
             <h6 className={styles.subtitleForm}>CORREO</h6>
-          <p className={styles.subtitleForm3}>info@solypiletas.com.ar</p>
+          <p className={styles.subtitleForm3}>solypiletas.arg@gmail.com</p>
         </div>
         <div className={styles.dat3}>
             <h6 className={styles.subtitleForm}>UBICACIÓN</h6>
