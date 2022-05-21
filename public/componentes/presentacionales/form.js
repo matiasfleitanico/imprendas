@@ -58,7 +58,7 @@ export default function Form() {
         </section>
         <div className={styles.dat1}>
             <h6 className={styles.subtitleForm}> TEL</h6>
-            <p className={styles.subtitleForm3}>11 5024-2877</p>
+            <p className={styles.subtitleForm3}>11 5523-7876</p>
         </div>
         <div className={styles.dat2}>
             <h6 className={styles.subtitleForm}>CORREO</h6>
